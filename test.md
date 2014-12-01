@@ -1,9 +1,2 @@
-mkdir tmp
-cd tmp
-git init
-touch test.md
-git add test.md
-git commit -am 'commit' 
-git remote add origin https://github.com/joerik/TEST.git
-git pull origin master
-git push -u origin master
+pear channel-discover pear.pirum-project.org
+pear install pirum/Pirum
